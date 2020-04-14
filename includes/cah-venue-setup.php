@@ -7,17 +7,17 @@
  */
 
 if( !class_exists( 'WP_CPT_Registrar' ) ) { 
-    require_once CAH_SPA_VENUE__PLUGIN_DIR . 'lib/class-abstract-cpt-registrar.php';
+    require_once CAH_VENUE__PLUGIN_DIR . 'lib/class-abstract-cpt-registrar.php';
 }
 
 /*
 if( !trait_exists( 'wpCustomPostTypeRegistrar', false ) ) {
-    require_once CAH_SPA_VENUE__PLUGIN_DIR . 'lib/trait-cpt-registrar.php';
+    require_once CAH_VENUE__PLUGIN_DIR . 'lib/trait-cpt-registrar.php';
 }
 */
 
-if( !class_exists( 'CAH_SPAVenueSetup' ) ) {
-    class CAH_SPAVenueSetup extends WP_CPT_Registrar
+if( !class_exists( 'CAH_VenueSetup' ) ) {
+    class CAH_VenueSetup extends WP_CPT_Registrar
     {
         // Overriding parent class's defaults
         protected static $_labels = [

@@ -1,3 +1,3 @@
-# SPA Venue Custom Post Type
+# CAH Venue Custom Post Type
 
-A WordPress Custom Post Type for displaying information on the various venues in the UCF School of Performing Arts.
+A WordPress Custom Post Type for displaying information on the various venues in the UCF College of Arts and Humanities.
